@@ -78,45 +78,45 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   //Icons
-  firstListIcon: 'music',
-  secondListIcon: 'coffee',
+  firstListIcon: 'terminal',
+  secondListIcon: 'briefcase',
 
   // Links
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'AbulaChan',
+        link: 'http://chan.abulafia.space',
       },
       {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Abulafia',
+        link: 'http://abulafia.space',
       },
       {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Fapulafia',
+        link: 'http://fap.abulafia.space',
       },
       {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Slexyt',
+        link: 'https://slexyt.cf/blog/',
       },
     ],
     secondList: [
       {
-        name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        name: 'Wolframe',
+        link: 'https://wolframe.club/',
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
+        name: 'WolForums',
+        link: 'https://wolframe.club/forums/',
       },
       {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
+        name: 'Counter-Strike Cafe',
+        link: 'https://cscafe.xyz/',
       },
       {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
+        name: 'Cafe Forums',
+        link: 'https://redirects.cscafe.xyz/to/forums/',
       },
     ],
   },
