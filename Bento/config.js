@@ -12,14 +12,14 @@ const CONFIG = {
 
   // General
   name: 'Saintly',
-  imageBackground: false,
+  imageBackground: true,
   openInNewTab: true,
 
   // Greetings
-  greetingMorning: 'Good morning!',
+  greetingMorning: 'Ohayo!',
   greetingAfternoon: 'Good afternoon,',
   greetingEvening: 'Good evening,',
-  greetingNight: 'Go to Sleep!',
+  greetingNight: 'Oyasumi!',
 
   // Weather
   weatherKey: 'InsertYourAPIKeyHere123456',
@@ -50,19 +50,19 @@ const CONFIG = {
     {
       id: '3',
       name: 'Google',
-      icon: 'google',
+      icon: 'search',
       link: 'https://google.com/',
     },
     {
       id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'MangaKakalot',
+      icon: 'book-open',
+      link: 'https://mangakakalot.com/',
     },
     {
       id: '5',
       name: 'MangaDex',
-      icon: 'bookmark',
+      icon: 'book',
       link: 'https://mangadex.org/',
     },
     {
