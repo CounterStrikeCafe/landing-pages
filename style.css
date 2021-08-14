@@ -1,0 +1,28 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+}
+
+#outter-container {
+    min-height: 100vh;
+    background-color: blueviolet;
+    padding: 10%;
+}
+
+#inner-container {
+    padding: 10px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    min-height: min-content;
+    padding: 20px;
+}
+
+#content-container {
+    min-height: min-content;
+    background-color: cornsilk;
+    border-radius: 10px;
+    padding: 20px;
+}
