@@ -55,9 +55,9 @@ const CONFIG = {
     },
     {
       id: '4',
-      name: 'MangaKakalot',
-      icon: 'book-open',
-      link: 'https://mangakakalot.com/',
+      name: 'Blank Page',
+      icon: 'box',
+      link: 'https://blank',
     },
     {
       id: '5',
