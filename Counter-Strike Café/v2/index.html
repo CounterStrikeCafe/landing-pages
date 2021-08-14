@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Counter-Strike Café</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Other Stuff for Embed -->
+    <meta name="theme-color" content="#6314c9">
+    <meta name="keywords" content="hvh, cheat csgo, csgo cheat, forum, private forum, cscafe, cscafe.xyz, counter-strike cafe, cs cafe" />
+    <meta name="description" content="Counter-Strike Café - Your reliable and safe source for CS:GO cheats and more!" />
+    <link rel="shortcut icon" href="https://forum.cscafe.xyz/styles/default/xenforo/logo.gif" type="image/x-icon">
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://forum.cscafe.xyz/styles/default/xenforo/logo.gif" />
+    <meta property="og:url" content="https://cscafe.xyz/" />
+    <meta property="og:description" content="Counter-Strike Café - Your reliable and safe source for CS:GO cheats and more!" />
+    <meta property="og:keywords" content="hvh, cheat csgo, csgo cheat, forum, private forum, cscafe, cscafe.xyz, counter-strike cafe, cs cafe" />
+
+    <!-- Other JS I need -->
+    <script type="text/javascript" src="assets/javascript/title.js">
+        /* Animated-title Javascript */
+    </script>
+    <script type="text/javascript" src="assets/javascript/enter.js">
+        /* Toggles the display of the "Click to enter" Screen */
+    </script>
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- This is for the Music-player -->
+
+    <audio id="divAudio">
+        <source src="cipher.mp3" type="audio/mp3"> <!-- Setting the Music-file that should be played -->
+    </audio>
+
+    <script>
+        var vAudio = document.getElementById("divAudio"); /* At first we are getting the Music-file we want to play through the variable we set through the ID of the thingie above */
+
+        function playMe() {
+            vAudio.play(); /* Now we are simply playing it, it gets activated by clicking the "intro" DIV */
+        }
+    </script>
+
+    <!-- This now is the Vignette shown -->
+
+    <div id="intro" onclick="hideMe();playMe();">
+
+        <h1>Click to enter the Café</h1>
+
+    </div>
+
+    <!-- This is what you see after the Vignette -->
+
+    <div id="content">
+
+        <div id="wrapper-1">
+            <h1 id="hoverable">Counter-Strike Café</h1>
+            <h4 id="hoverable">Your reliable source for Counter-Strike Cheats and more.</h4>
+            <div>
+                <a href="https://redirects.cscafe.xyz/to/forum/" target="_blank"><button class="butt" id="btn-grp">Forum</button></a>
+                <a href="https://redirects.cscafe.xyz/to/discord/" target="_blank"><button class="butt" id="btn-grp">Discord</button></a>
+                <a href="https://redirects.cscafe.xyz/to/chaos/youtube/" target="_blank"><button class="butt" id="btn-grp">Chaos</button></a>
+                <a href="https://redirects.cscafe.xyz/to/r1se/youtube/" target="_blank"><button class="butt" id="btn-grp">r1se</button></a>
+                <a href="https://redirects.cscafe.xyz/to/saintly/instagram/" target="_blank"><button class="butt" id="btn-grp">$aintly</button></a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+
+</html>
