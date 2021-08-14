@@ -11,7 +11,7 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Saintly',
   imageBackground: false,
   openInNewTab: true,
 
@@ -23,7 +23,7 @@ const CONFIG = {
 
   // Weather
   weatherKey: 'InsertYourAPIKeyHere123456',
-  weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
+  weatherIcons: 'Nord', // 'Nord', 'Dark', 'White', 'OneDark'
   weatherUnit: 'C',
   weatherLatitude: '37.774929',
   weatherLongitude: '-122.419418',
@@ -39,19 +39,19 @@ const CONFIG = {
       id: '1',
       name: 'Github',
       icon: 'github',
-      link: 'https://github.com/',
+      link: 'https://github.com/saintly2k/',
     },
     {
       id: '2',
-      name: 'Mail',
+      name: 'Yandex.Mail',
       icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      link: 'https://mail.yandex.com/',
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'Google',
+      icon: 'google',
+      link: 'https://google.com/',
     },
     {
       id: '4',
@@ -61,15 +61,15 @@ const CONFIG = {
     },
     {
       id: '5',
-      name: 'Reddit',
+      name: 'MangaDex',
       icon: 'bookmark',
-      link: 'https://reddit.com',
+      link: 'https://mangadex.org/',
     },
     {
       id: '6',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
+      name: 'CloudFlare',
+      icon: 'cloud',
+      link: 'https://dash.cloudflare.com/',
     },
   ],
 
